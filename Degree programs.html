@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>
+REGISTRATION FORM 
+</title>
+</head>
+<body bgcolor="turquoise" >
+
+<form>
+<label><h1>Student Details</h1></label>
+
+Sur Name:<br>
+   <input type="text" placeholder="sur name" required><br>
+First Name:<br>
+   <input type="text" placeholder ="first name" required><br>
+
+Password:<br>
+  <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+<label><h2>Select Gender</h2></label>
+Male:
+ <input type="radio" name="gander" value="male"> <br>
+female:
+<input type="radio" name="gander" value="male"><br>
+
+
+
+<label><h1>Select Program</h1></label>
+   <input type="checkbox" value="Mathematics">
+      Mathematics <br> 
+<input type="checkbox" value="Web Design">
+      Web Design <br> 
+<input type="checkbox" value="Legal and Professional Isues in Computing">
+      Legal and Professional Isues in Computing <br> 
+<input type="checkbox" value="Mathematics">
+      Mathematics <br> 
+<input type="checkbox" value="Basic Computer Programming">
+      Basic Computer Programming <br> 
+<input type="checkbox" value="Mathematics teaching Methods">
+      Mathematics teaching Methods <br> 
+
+<label><h1>Select Class</h1></label>
+   <select>
+         <option>MCS3A</option>
+         <option>MCS3B</option>
+         <option>CPE3A</option>
+         <option>HE3A</option>
+         <option>BSC3A</option>
+         <option>IS3A</option>
+         <option>MPE3A</option>
+         <option>PESS3A</option>
+
+   </select>
+
+   <input type="datetime-local" id="send" oninput="results.value=send.value">
+<br>
+<br>
+
+<input type="submit" value="submit" onclick="alert('Thanks for registraion')">
+<input type="reset" value="reset" onclick="alert('Do you really want to reset')"> 
+</form>
+</body>
+
+</html>

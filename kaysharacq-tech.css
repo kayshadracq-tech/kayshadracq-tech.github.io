@@ -1,0 +1,102 @@
+*{
+margin:2px;
+padding:2px
+}
+
+body {
+	background-color:lime;
+	text-align:center;
+	color:#67727A;
+	font-family: 'alegrya' sans-serif;
+	margin:0;
+	}
+
+#page_centre{
+	width:960px; 
+	font-size: 160%;
+	line-height:150%;
+	text-align:justify;
+	margin;10px auto;
+}
+
+#page_header{
+	background-color:blue;
+	color:white;
+}
+
+#logo{
+	display:inline;
+	padding:15px 20px 10px 10px; 
+	vertical-align: middle;
+}
+#tag_line{
+	display:inline;
+	vertical-align: middle;
+	font-size: arial;
+}
+
+#horizontalbar_nav{
+	background-color:darkorchid;
+	padding:5px;
+}
+
+#horizontalbar_nav ul{
+list-style-type:none;
+}	
+
+#horizontalbar_nav a{
+	color:white;
+}
+.active{
+	background-color:steelblue;
+}
+li a:hover:not(.active){
+	background-color:turquoise;
+}
+
+#horizontalbar_nav li{
+	display:inline;
+	padding:5px;
+}
+#unzalogo_side{
+	background-color:beige;
+	width:200px;
+	float:left;
+}
+#tut_section{
+	float:left;
+	
+}
+.main_articles{
+background-color:cyan;
+float:left;
+padding:10px;
+border:2px solid black;
+width:350px;
+height:150px;
+}
+
+.main_articles header{
+	background-color:bisque
+
+}
+
+.main_articles footer{
+	background-color:grey;
+	text-align: center;
+	color:yellow;
+}
+
+#page_marq{
+   color: white;
+   font-size: 200%;
+}
+
+
+#page_footer{
+clear:both;
+background-color:magenta;
+
+text-align:center;
+color:white;	
+}	
